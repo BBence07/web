@@ -41,3 +41,12 @@ div.tt li a.active {
   color: white;
   text-align: center;
 }
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+div.box {
+  width: 350px;
+}
