@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="hu">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Div</title>
+    <title>div</title>
     <link rel="stylesheet" href="style.css">
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
@@ -13,67 +12,62 @@
     <link rel="manifest" href="favicon/site.webmanifest">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
- </head>
-        .container {
-            width: 90%;
-            padding: 20px;
-            margin: 100px auto;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-        }
-
-        .box {
-            width: 250px;
-            margin: 0 10px;
-            box-shadow: 0 0 20px rgba(0, 0, 1, 1);
-            transition: 2s;
-        }
-
-        .box img {
-            display: block;
-            width: 100%;
-            border-radius: 5px;
-        }
-
-        .box:hover {
-            transform: scale(1.5);
-            z-index: 2;
-        }
-    </style>
+<style>
+    .container{
+width:90% ;
+padding: 20px;
+margin: 100px auto;
+display: flex;
+flex-direction: row;
+justify-content: center;
+    }
+    .box{
+        width: 250px;
+        margin: 0 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 1, 1);
+        tramsition:2s;
+    }
+   .box img{
+        display: block;
+        width: 100%;
+        border-radius: 5px;
+    }
+ .box:hover{
+transform:scale(1.5);
+z-index: 2;
+ }
+</style>
 
 </head>
-
-<body>
-    <div class="nav">
-        <ul>
-            <li><a href="index.html">Főoldal</a></li>
-            <li><a href="keplink.html">Képlink</a></li>
-            <li><a href="lista.html">Lista</a></li>
-            <li><a href="tablazat.html">Órarend</a></li>
-            <li><a href="urlap.html">Űrlap</a></li>
-            <li><a href="div.html">Div</a></li>
-            <li><a href="index2.html">Index2</a></li>
-        </ul>
-    </div>
+<body >
+     <div class="tt">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="keplink.html">Képlink</a></li>
+        <li><a href="lista.html">Lista</a></li>
+        <li><a href="tablazat.html">Órarend</a></li>
+        <li><a href="urlap.html">Űrlap</a></li>
+        <li><a class="active" href="div.html">Div</a></li>
+      </ul>
+</div>
 
 
     <div class="container">
         <div class="box">
-            <img src="img/osz.jpg" alt="Ősz">
-        </div>
-        <div class="box">
-            <img src="img/tel.jpg" alt="Tél">
-        </div>
-        <div class="box">
-            <img src="img/tavasz.jpg" alt="tavasz"
-        <div class="box">
-            <img src="img/nyar.jpg" alt="Nyár">
-        </div>
+        <img src="img/osz.jpg" alt="Ősz" width="350px">
+ </div>
+<div class="box">
+  <img src="img/tel.jpg" alt="Tél" width="350px">
+ </div>
+  <div class="box">
+   <img src="img/tavasz.jpg" alt="Tavasz" width="350px">
+   </div>
+  <div class="box">
+   <img src="img/nyar.jpg" alt="Nyár" width="350px">
+   </div>
     </div>
+    <div class="footer">
+        <p>Author: Bodnár Bence </p>
+      </div>
+      
 
-        <div class="footer">
-            <p>Author: Bodnár Bence </p>
-          </div>
-          
-    </div>
