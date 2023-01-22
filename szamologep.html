@@ -20,32 +20,33 @@
         <li><a class="active" href="szamologep.html">Számológép</a></li>
       </ul>
     </div>
-<h2>Számológép program</h2>
-<input name="egy" placeholder="SZÁM 1"> 
-<input name="ketto" placeholder="SZÁM 2"> <br>
-    Eredmény: <input name="eredmeny"><br>
-    <input type="button" value=" + " onClick="osszead()">
-    <input type="button" value=" - " onClick="kivon()">
-    <input type="button" value=" * " onClick="szoroz()">
-    <input type="button" value=" / " onClick="oszt()"><br>
-    
-    
-    </form>
-    <script>
-    function osszead() {
-    document.szg.eredmeny.value = document.szg.egy.value *1 + document.szg.ketto.value * 1;
-    }
-    function kivon() {
-    document.szg.eredmeny.value = document.szg.egy.value - document.szg.ketto.value;
-    }
-    function szoroz() {
-    document.szg.eredmeny.value = document.szg.egy.value * document.szg.ketto.value;
-    }
-    function oszt() {
-    document.szg.eredmeny.value = document.szg.egy.value / document.szg.ketto.value;
-    }
-    </script>
-    
+
+<h2>Számológépes program</h2>
+    <form name="szg">
+      <input name="egy"placeholder="SZÁM 1">
+      <input name="ketto"placeholder="SZÁM 1"><br>
+      Eredmény: <input name="eredmeny"><br>
+      <input type="button" value=" + " onClick="osszead()">
+      <input type="button" value=" - " onClick="kivon()">
+      <input type="button" value=" * " onClick="szoroz()">
+      <input type="button" value=" / " onClick="oszt()"><br>
+      
+      
+      </form>
+      <script>
+      function osszead() {
+      document.szg.eredmeny.value = document.szg.egy.value *1 + document.szg.ketto.value * 1;
+      }
+      function kivon() {
+      document.szg.eredmeny.value = document.szg.egy.value - document.szg.ketto.value;
+      }
+      function szoroz() {
+      document.szg.eredmeny.value = document.szg.egy.value * document.szg.ketto.value;
+      }
+      function oszt() {
+      document.szg.eredmeny.value = document.szg.egy.value / document.szg.ketto.value;
+      }
+      </script>
     <div class="footer">
         <p>Author: Bodnár Bence </p>
       </div>
