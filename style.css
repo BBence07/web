@@ -37,7 +37,7 @@ div.tt li a.active {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #0066ff;
+  background-color: hsl(216, 100%, 50%);
   color: white;
   text-align: center;
 }
